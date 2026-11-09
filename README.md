@@ -1,5 +1,18 @@
 # lucida-openfeature (Ruby)
 
+## Install
+
+From GitHub, [lucidaanalytics/lucida-ruby-openfeature](https://github.com/lucidaanalytics/lucida-ruby-openfeature), release `v0.1.0`:
+
+```ruby
+# Gemfile (the provider needs the core gem)
+gem "lucida", git: "https://github.com/lucidaanalytics/lucida-ruby.git", tag: "v0.1.0"
+gem "lucida-openfeature", git: "https://github.com/lucidaanalytics/lucida-ruby-openfeature.git", tag: "v0.1.0"
+```
+
+The RubyGems package `lucida-openfeature` is coming.
+
+
 OpenFeature server provider over the Lucida Ruby SDK. Pinned to `openfeature-sdk ~> 0.4` (Apache-2.0).
 
 ```ruby
